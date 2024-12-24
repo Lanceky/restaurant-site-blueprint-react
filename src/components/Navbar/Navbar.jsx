@@ -18,6 +18,14 @@ const Navbar = () => (
       <li className='p__opensans'><a href="#awards">Awards</a></li>
       <li className='p__opensans'><a href="#contact">Contact</a></li>
     </ul>
+    <div className='app__navbar-login'>
+      <a href="#login" className='p__opensans'>Login / Register</a>
+      <div />
+      <a href="/" className='p__opensans'>Book table</a>
+    </div>
+    <div className='app__navbar-smallscreen'>
+      <GiHamburgerMenu color='#fff' fontSize={27} onClick={()=>{}}/>
+    </div>
   </nav>
 );
 
