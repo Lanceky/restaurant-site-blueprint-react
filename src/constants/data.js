@@ -79,4 +79,8 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+// Assign object to a variable
+const data = { wines, cocktails, awards };
+
+// Export the object
+export default data;
