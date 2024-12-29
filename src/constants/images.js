@@ -1,3 +1,4 @@
+// Import statements
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
@@ -21,7 +22,8 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
-export default {
+// Assign object to a variable
+const images = {
   bg,
   chef,
   G,
@@ -45,3 +47,6 @@ export default {
   quote,
   gericht,
 };
+
+// Export the object
+export default images;
